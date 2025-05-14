@@ -42,15 +42,13 @@ export default function LoginScreen() {
         <Link href="/" className="flex w-full justify-end">
           <Text className="color-blue-400">Forgot password?</Text>
         </Link>
-        <Divider />
-
         <Link href="/">
           <Button className="w-full">
             <ButtonText className="text-typography-0">Sign In</ButtonText>
           </Button>
         </Link>
       </VStack>
-      <HStack className="w-full justify-center" space="xs">
+      <HStack className="w-full justify-center mt-5" space="xs">
         <Text>Don't have an account?</Text>
         <TouchableOpacity>
           <Link href="/">
